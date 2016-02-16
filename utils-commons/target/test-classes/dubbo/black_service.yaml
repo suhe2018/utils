@@ -1,0 +1,8 @@
+address: zookeeper://172.16.7.56:40000
+appName: puhui-rpc-storm-client
+appOwner: puhui-rpc-storm
+timeout: 10000
+connections: 5
+protocolName: dubbo
+accepts: 20000
+monitorProtocol: registry

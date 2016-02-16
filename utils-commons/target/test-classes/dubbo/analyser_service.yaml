@@ -1,0 +1,8 @@
+address: zookeeper://beta1.hadoop.puhuifinance.com:2181?backup=beta2.hadoop.puhuifinance.com:2181,beta3.hadoop.puhuifinance.com:2181
+appName: puhui-rpc-storm-client
+appOwner: puhui-rpc-storm
+timeout: 10000
+connections: 5
+protocolName: dubbo
+accepts: 20000
+monitorProtocol: registry
